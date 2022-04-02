@@ -43,7 +43,7 @@ body {
 }
 
 #category-title {
-    font-size: 300%
+    font-size: 500%
 }
 
 #description {
@@ -56,8 +56,27 @@ body {
     text-align: center;
 }
 
-.card {
+.pcard {
     margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    height: 15em;
+    transition: 0.3s;
+    background-color: plum;
+}
+
+.pcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+}
+
+.pcard:active {
+    transform: translateY(4px);
+}
+
+
+.card {
+    margin-top: 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 30%;
     height: 15em;
@@ -82,3 +101,5 @@ body {
 #hyperlink-nav:hover {
     color: yellow;
 }
+
+
