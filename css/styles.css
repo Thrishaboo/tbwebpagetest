@@ -1,0 +1,84 @@
+
+.topnav {
+    background-color: #151515;
+    border-bottom-color: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    height: 3em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.topnav a {
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
+    line-height: 4em;
+    color: white;
+}
+
+body {
+    margin: 0%;
+    background-color:white;
+    text-align: center;
+}
+
+.main-body {
+    padding: 5%;
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#name {
+    font-size: 300%;
+    padding-bottom:2.5%
+}
+
+#intro {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 50%;
+}
+
+#category-title {
+    font-size: 300%
+}
+
+#description {
+    padding: 2% 7.5%;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    margin-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    height: 15em;
+    transition: 0.3s;
+    background-color: plum;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+}
+
+.card:active {
+    transform: translateY(4px);
+}
+
+#hyperlink-nav {
+    color: white;
+    transition: color .25s
+}
+
+#hyperlink-nav:hover {
+    color: yellow;
+}
