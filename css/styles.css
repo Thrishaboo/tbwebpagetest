@@ -105,7 +105,7 @@ body {
 
 
 blink {padding: 0%;margin-top: 30%;
-      animation: 2s linear infinite condemned_blink_effect;
+      animation: 2s linear infinite condemned_blink_effect;background-color: gray;
   }
   
   /* for Safari 4.0 - 8.0 */
