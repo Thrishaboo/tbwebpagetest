@@ -1,0 +1,14 @@
+//this code calculates grade
+const addTwo = (num1,num2) => {
+  return (num1/num2) * 100;
+}
+const checkConsistentOutput = (func, num1,num2) => {
+  let gradeA = 80; // defalt value assigned
+  let grade =  func(num1,num2); // calling addTwo function
+  //below logic - if grade is >= 80 it is grade A
+  return grade >= gradeA ? func(num1,num2)+' Grade A' : func(num1,num2)+'  Sorry not grade A';
+  
+
+}
+//this is to call the function
+console.log(checkConsistentOutput(addTwo, 31,46));

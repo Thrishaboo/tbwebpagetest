@@ -81,7 +81,8 @@ body {
     width: 30%;
     height: 20em;
     transition: 0.3s;
-    background-color: plum;
+    background-color: gray;
+    border: 0in;
 }
 
 .card:hover {
